@@ -1,0 +1,1263 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(Minecraft.ttf);
+  }
+
+  html {
+    background-color: black;
+  }
+ .startbutton {
+   background-color: black;
+   font-family: Minecraft;
+   color: yellow;
+   font-size: 35px;
+ }
+ .question1button1 {
+  background-color: black;
+   font-family: Minecraft;
+   color: white;
+   font-size: 35px;
+   animation: appear;
+   animation-duration: 10000000s;
+   animation-delay: 59s;
+   visibility: hidden;
+   animation-play-state: paused;
+   top: 50px;
+   position: fixed;
+ } 
+ 
+ @keyframes appear {
+   0% {
+    visibility: hidden;
+     }
+   100% {
+    visibility: visible;
+   }
+ }
+ .question1button2 {
+  background-color: black;
+   font-family: Minecraft;
+   color: white;
+   font-size: 35px;
+   animation: appear;
+   animation-duration: 10000000s;
+   animation-delay: 59s;
+   visibility: hidden;
+   animation-play-state: paused;
+   top: 50px;
+   left: 190px;
+   position: fixed;
+ }
+ .question2button1 {
+  background-color: black;
+   font-family: Minecraft;
+   color: white;
+   font-size: 35px;
+   animation: appear;
+   animation-duration: 10000000s;
+   animation-delay: 50s;
+   visibility: hidden;
+   animation-play-state: paused;
+   top: 50px;
+   position: fixed;
+ } 
+ .question2button2 {
+  background-color: black;
+   font-family: Minecraft;
+   color: white;
+   font-size: 35px;
+   animation: appear;
+   animation-duration: 10000000s;
+   animation-delay: 50s;
+   visibility: hidden;
+   animation-play-state: paused;
+   top: 50px;
+   left: 190px;
+   position: fixed;
+ }
+ .question3button1 {
+  background-color: black;
+   font-family: Minecraft;
+   color: white;
+   font-size: 35px;
+   animation: appear;
+   animation-duration: 10000000s;
+   animation-delay: 56s;
+   visibility: hidden;
+   animation-play-state: paused;
+   top: 50px;
+   position: fixed;
+ } 
+ .question3button2 {
+  background-color: black;
+   font-family: Minecraft;
+   color: white;
+   font-size: 35px;
+   animation: appear;
+   animation-duration: 10000000s;
+   animation-delay: 56s;
+   visibility: hidden;
+   animation-play-state: paused;
+   top: 50px;
+   left: 190px;
+   position: fixed;
+ }
+  .text {
+   font-family: 'Minecraft';
+   color: white;
+   font-size: 20px;
+   overflow: hidden;
+   white-space: nowrap; /* Keeps the content on a single line */
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 3s;
+   visibility: hidden;
+   animation-play-state: paused;
+ } 
+
+ @keyframes typing {
+   0% {
+    width: 0;
+    visibility: visible;
+   }
+   50% {
+    width: 50%;
+    visibility: visible;   }
+   80% {
+    width: 100%;
+    visibility: visible;   }
+   90% {
+    width: 100%;
+    visibility: visible;   }
+   100% {
+    width: 0%;
+    color: black;
+    visibility: hidden;   }
+ }
+ 
+ .text1 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 7s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text2 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 11s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text3 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 15s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text4 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 21s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text5 {
+    font-family: 'Minecraft';
+    color: red;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 25s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text6 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 2.3s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 29s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text7 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 2.2s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 31s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text8 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 2.2s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 33s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text9 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 2.2s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 35s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text10 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 2.2s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 39s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text11 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 43s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text12 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 47s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text13 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 51s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text14 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 57s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ /*  MAKE YES OR NO QUESTION*/
+ .text15 {
+    font-family: 'Minecraft';
+    color: green;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 6s; /* 6 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text16 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 10s; /* 4 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text17 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 14s; /* 4 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text18 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.0s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 18s; /* 4 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text19 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 2.2s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 22s; /* 4 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text20 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 2.2s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 24s; /* 2 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text21 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 2.2s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 26s; /* 2 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text22 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 2.2s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 28s; /* 2 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text23 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 33s; /* 5 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text24 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 38s; /* 4 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text25 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 42s;/* 4 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text26 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 46s; /* 4 */
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text27 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 50s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text28 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 4s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text29 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 8s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text30 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 12s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text31 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 16s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text32 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 20s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text33 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 24s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text34 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 28s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text35 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 32s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text36 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 36s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text37 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 40s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text38 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 44s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text39 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 48s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text40 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 52s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text41 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 56s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text42 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 4s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text43 {
+    font-family: 'Minecraft';
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+   letter-spacing: .15em; /* Adjust as needed */
+   animation: 
+   typing 3.5s steps(40, end);
+   position: fixed;
+   top: 10px;
+   animation-delay: 8s;
+   visibility: hidden; animation-play-state: paused;
+ }
+ .text44 {
+  font-family: 'Minecraft';
+  color:#0ce843;
+  font-size: 20px;
+  overflow: hidden;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+  typing2 6.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 12s;
+ visibility: hidden; animation-play-state: paused;
+ }
+ @keyframes typing2 {
+  0% {
+   width: 0;
+  
+   visibility: visible;
+  }
+  20% {
+    width: 50%;
+ 
+   visibility: visible;   }
+   30% {
+    width: 100%;
+ 
+   visibility: visible;   }
+   40% {
+    width: 100%;
+ 
+   visibility: visible;   }
+   20% {
+    width: 100%;
+ 
+   visibility: visible;   }
+
+  50% {
+   width: 100%;
+ 
+   visibility: visible;   }
+   60% {
+    width: 100%;
+  
+    visibility: visible;   }
+    70% {
+      width: 100%;
+    
+      visibility: visible;   }
+  80% {
+   width: 100%;
+  
+   visibility: visible;   }
+  90% {
+   width: 100%;
+   
+   visibility: visible;   }
+}
+.text45 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 19s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text46 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 23s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text47 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 27s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text48 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 31s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text49 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 35s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text50 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 39s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text51 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 43s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text52 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 47s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text53 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 52s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text54 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 57s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text55 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 62s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text56 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 67s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text57 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 72s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text58 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 77s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text59 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 82s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text60 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 87s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text61 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 92s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text62 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 97s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text63 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 102s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text64 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 107s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text65 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 112s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text66 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 117s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text67 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 122s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text68 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 127s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text69 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 132s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text70 {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 137s;
+ visibility: hidden; animation-play-state: paused;
+}
+.text71 {
+  font-family: 'Minecraft';
+  color:#0ce843;
+  font-size: 20px;
+  overflow: hidden;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+  typing2 6.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ animation-delay: 142s;
+ visibility: hidden; animation-play-state: paused;
+ }
+ .textstop {
+  font-family: 'Minecraft';
+  color: white;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+ margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ letter-spacing: .15em; /* Adjust as needed */
+ animation: 
+ typing 3.5s steps(40, end);
+ position: fixed;
+ top: 10px;
+ visibility: hidden; animation-play-state: paused;
+}
