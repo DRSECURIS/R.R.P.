@@ -64,6 +64,10 @@ function play() {
       console.log(text);
       text.style.animationPlayState = "running";
      }  
+     document.getElementById("finalbutton").style.animationPlayState = "running";
+  }
+  function redirect() {
+    window.location.replace("https://discord.gg/bMwqp26XZh");
   }
   function stop() {
     var audio = document.getElementById("music");

@@ -11,6 +11,7 @@
    font-family: Minecraft;
    color: yellow;
    font-size: 35px;
+   cursor:pointer;
  }
  .question1button1 {
   background-color: black;
@@ -24,6 +25,7 @@
    animation-play-state: paused;
    top: 50px;
    position: fixed;
+   cursor:pointer;
  } 
  
  @keyframes appear {
@@ -47,6 +49,7 @@
    top: 50px;
    left: 190px;
    position: fixed;
+   cursor:pointer;
  }
  .question2button1 {
   background-color: black;
@@ -60,6 +63,7 @@
    animation-play-state: paused;
    top: 50px;
    position: fixed;
+   cursor:pointer;
  } 
  .question2button2 {
   background-color: black;
@@ -74,6 +78,7 @@
    top: 50px;
    left: 190px;
    position: fixed;
+   cursor:pointer;
  }
  .question3button1 {
   background-color: black;
@@ -87,6 +92,7 @@
    animation-play-state: paused;
    top: 50px;
    position: fixed;
+   cursor:pointer;
  } 
  .question3button2 {
   background-color: black;
@@ -101,6 +107,7 @@
    top: 50px;
    left: 190px;
    position: fixed;
+   cursor:pointer;
  }
   .text {
    font-family: 'Minecraft';
@@ -1260,4 +1267,20 @@
  position: fixed;
  top: 10px;
  visibility: hidden; animation-play-state: paused;
+}
+.finalbutton {
+  background-color: black;
+   font-family: Minecraft;
+   color: #0ce843;
+   font-size: 100px;
+   animation: appear;
+   animation-duration: 10000000s;
+   animation-delay: 150s;
+   visibility: hidden;
+   animation-play-state: paused;
+   width: 500px;
+   cursor:pointer;
+}
+.center {
+  text-align: center;
 }
