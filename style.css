@@ -131,15 +131,24 @@
     width: 0;
     visibility: visible;
    }
-   50% {
+   20% {
     width: 50%;
-    visibility: visible;   }
+    visibility: visible;
+   }
+    70% {
+      width: 100%;
+    visibility: visible;
+    }
    80% {
     width: 100%;
     visibility: visible;   }
    90% {
     width: 100%;
     visibility: visible;   }
+    95% {
+      width: 50%;
+    visibility: visible;
+    }
    100% {
     width: 0%;
     color: black;
