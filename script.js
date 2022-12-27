@@ -67,7 +67,7 @@ function play() {
      document.getElementById("finalbutton").style.animationPlayState = "running";
   }
   function redirect() {
-    window.location.replace("https://discord.gg/bMwqp26XZh");
+    window.location.replace("https://discord.gg/tujC74Vavq");
   }
   function stop() {
     var audio = document.getElementById("music");
